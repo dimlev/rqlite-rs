@@ -3,9 +3,15 @@ name = "rqlite"
 version = "0.1.0"
 edition = "2018"
 description = "An async implementation of a rqlite client"
+authors = ["zesty <zesty@mail.onion.bbox.wtf>"]
+readme = "README.md"
+license = "Apache-2.0"
+repository = "https://codeberg.org/zesty/rqlite-rs"
+homepage = "https://codeberg.org/zesty/rqlite-rs"
 
 categories = ["async", "database"]
 keywords   = ["rqlite"]
+
 
 [dependencies]
 tokio = { version = "1.12.0", features = [ "full" ] }
